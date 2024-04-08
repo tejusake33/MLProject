@@ -9,4 +9,10 @@
 9] git remote add origin git@github.com:tejusake33/MLProject.git
 10] git remote -v
 11] git push -u origin main
-**** Git global configuartion ****
+**** Git global configuartion - adding new ssh key in github account ****
+12] ssh-keygen -t rsa
+13] pbcopy < ~/.ssh/id_rsa.pub //copy the ssh key and add it in ssh keys 
+14] git pull
+15] pip install -r requirements.txt
+16] git add .
+17] git status
